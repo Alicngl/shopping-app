@@ -1,9 +1,10 @@
+import { observer } from "mobx-react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageContainer from "./components/containers/PageContainer";
 import Navbar from "./components/navbar";
 import Home from "./pages/Home";
 
-function App() {
+function App(data) {
   return (
     <div className="App">
       <PageContainer>
@@ -18,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default observer(App);
