@@ -4,7 +4,7 @@ import PageContainer from "./components/containers/PageContainer";
 import Navbar from "./components/navbar";
 import Home from "./pages/Home";
 
-function App(data) {
+function App() {
   return (
     <div className="App">
       <PageContainer>
