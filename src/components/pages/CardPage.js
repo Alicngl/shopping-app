@@ -10,7 +10,7 @@ function CardPage({ prd }) {
           <Image src={prd.image} width="70px" height={"70px"} />
           <div className="h-9 my-3">{prd.title.substring(0, 25)}...</div>
           <div>{prd.price}$</div>
-          <Button justify="bottom">Satın Al</Button>
+          <Button justify="bottom">Sepete Ekle</Button>
         </div>
       </Col>
     </div>
